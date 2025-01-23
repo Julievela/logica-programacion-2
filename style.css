@@ -3,21 +3,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom right, #c4d8d9 39%, #a49bbb 96%);
+    background-image: linear-gradient(to bottom right, #2fa5ab 39%, #51417a 96%);
     padding: 8px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 600px;
     color:  #372833;
+    margin-top: 20px;
 }
 
+body {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    color: #372833;
 
+}
 
 input, button {
     margin: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #543434;
     border-radius: 10px;
     font-size: larger;
 }
@@ -30,7 +39,7 @@ input {
 button {
     color: white;
     cursor: pointer;
-    background-color: #33565c;
+    background-color: #0d8a0b66;
 }
 
 button:hover {

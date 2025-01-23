@@ -2,7 +2,7 @@
   //Celsius a Fahrenheit → °F= (°C*9/5)+32
  //Celsius a Kelvin → °K= °C+273.15
 
-function celsiusFahrenheit (){
+ function celsiusFahrenheit (){
     let celsius = parseInt(document.getElementById("cel-far").value);
     if (isNaN(celsius)){
     document.getElementById("resultados").innerText = "Por favor, ingresa solo números.";
